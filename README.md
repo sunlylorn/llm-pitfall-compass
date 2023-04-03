@@ -200,7 +200,7 @@ tensorboard 可视化训练过程：
 - SHARD_GRAD_OP。Gradients and optimizer states are sharded during computation, and additionally, parameters are sharded outside computation. 
 - NO_SHARD。类似于DistributedDataParallel（DDP）
 
-**cpu_offload。**To further maximize memory efficiency, FSDP can offload the parameters, gradients and optimizer states to CPUs when the instance is not active in the computation.
+**cpu_offload** . To further maximize memory efficiency, FSDP can offload the parameters, gradients and optimizer states to CPUs when the instance is not active in the computation.
 
 
 
